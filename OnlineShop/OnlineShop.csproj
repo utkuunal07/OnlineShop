@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191022015506_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191022015506_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191024010342_AddingShoppingCart.cs" />
+    <Compile Remove="Migrations\20191024010342_AddingShoppingCart.Designer.cs" />
+    <Compile Remove="Migrations\20191026174705_unbind.cs" />
+    <Compile Remove="Migrations\20191026174705_unbind.Designer.cs" />
+    <Compile Remove="Migrations\20191026182828_newTables.cs" />
+    <Compile Remove="Migrations\20191026182828_newTables.Designer.cs" />
+    <Compile Remove="Migrations\20191026183358_newTables.cs" />
+    <Compile Remove="Migrations\20191026183358_newTables.Designer.cs" />
+    <Compile Remove="Migrations\20191026183905_OrderAndOrderDetails.cs" />
+    <Compile Remove="Migrations\20191026183905_OrderAndOrderDetails.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.4" />
+  </ItemGroup>
+
+</Project>
